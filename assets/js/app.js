@@ -59,12 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 	
 	// ordering
-	const orderBtn = document.querySelector('#order-btn'),
-		orderPage = document.querySelector('#order-page');
+	// const orderBtn = document.querySelector('#order-btn'),
+	// 	orderPage = document.querySelector('#order-page');
 	
-	orderBtn.addEventListener('click', () => {
-		openModalWindow(orderPage);
-	});
+	// orderBtn.addEventListener('click', () => {
+	// 	openModalWindow(orderPage);
+	// });
 	
 	// close-modal
 	modal.forEach(item => {
